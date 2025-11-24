@@ -1,7 +1,38 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    
+    max-width: 800px;
 }
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fef7e2;
+    border-radius: 80px;
+    align-items: center;
+    padding: 50px;
+}
+
+.img-logo {
+    width: 5vw;
+}
+
+.topbar-icon {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+    background-color: sandybrown;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.icon3 {
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    color: brown;
+}
+
 .card-container {
     width: 15vw;
     min-width: 250px;
@@ -11,17 +42,20 @@ body{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    
+
 }
-.description-container{
+
+.description-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.price{
+
+.price {
     padding-left: 20px;
 }
-.add-to-cart{
+
+.add-to-cart {
     padding: 10px 50px;
     background-color: sandybrown;
     border: none;
@@ -29,8 +63,9 @@ body{
     cursor: pointer;
 
 }
-.button-container{
+
+.button-container {
     display: flex;
     justify-content: center;
-   
+
 }
