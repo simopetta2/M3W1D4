@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.card-container {
+    width: 15vw;
+    min-width: 250px;
+    min-height: 45vh;
+    background-color: #fef7e2;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+.description-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    padding-left: 20px;
+}
+.add-to-cart{
+    padding: 10px 50px;
+    background-color: sandybrown;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+   
+}
